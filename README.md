@@ -1,37 +1,36 @@
-# Best Friend Apology Website
+# Chocolate Box Apology Website
 
-An interactive and animated website designed to express your sincere apology to your best friend.
+An interactive and animated chocolate-themed website designed to express your sincere apology to your best friend.
 
 ## Features
 
-- Beautiful animated card that opens when clicked
-- Floating heart animations
-- Interactive elements
-- Memory cards to customize with your shared memories
-- Reasons for your apology and promises for the future
-- Celebration animation when forgiveness is granted
+- Beautiful animated chocolate box that opens when clicked
+- Interactive chocolate pieces with hidden messages
+- Hover effects that reveal personalized apology notes
+- Falling chocolate animation when forgiveness is granted
+- Rich, chocolatey color scheme
 
 ## How to Use
 
-1. **Customize the content**: Edit the `index.html` file to personalize the apology message, memories, reasons, and promises with your own text.
+1. **Open the website**: Simply double-click the index.html file on your computer to open it in a web browser.
 
-2. **Add personal touches**: You can customize colors in the CSS if desired or add images of you and your friend to make it more personal.
+2. **Interact with the elements**: 
+   - Click on the chocolate box lid to open it
+   - Hover over the individual chocolates to reveal hidden messages
+   - Click the "We good?" button at the bottom to see the celebration animation
 
-3. **Share it**: Once personalized, you can:
-   - Host it on a free service like GitHub Pages, Netlify, or Vercel
-   - Send the link to your best friend
-   - Or simply open the index.html file locally in a browser
+3. **Customize it**: Edit the `index.html` file to personalize the messages, or modify the colors in `style.css` to match your friend's favorites.
 
 ## Personalization Guide
 
-### To change the apology message:
-Edit the text within the `<div class="message">` section in the HTML file.
+### To change the messages inside the chocolates:
+Edit the text within each `<div class="chocolate-message">` element in the HTML file.
 
-### To change memories:
-Edit the text within each `<div class="memory-text">` element to include real memories you share with your friend.
+### To change the apology note:
+Edit the text within the `<div class="note">` section to express your own sincere apology.
 
-### To change reasons and promises:
-Edit the text within each `<div class="reason">` and `<div class="promise">` element to express why you're sorry and what you'll do to be a better friend.
+### To change the colors:
+The website uses warm chocolate tones (browns, tans, and caramels). You can modify these in the CSS file if desired.
 
 ## Browser Compatibility
 
